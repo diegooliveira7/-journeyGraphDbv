@@ -1,9 +1,14 @@
 import { Chart } from "react-google-charts";
+import React from "react";
 
 const optionChart = {//Configuração das legendas
   legend: {
     position: "none"//Desativar a informação da coluna
   },
+};
+
+const styleDiv = {
+  'box-shadow': '3px 3px 3px 3px rgba(0, 0, 0, 0.3)'
 };
 
 const App = () => {
@@ -20,7 +25,7 @@ const App = () => {
 
   return(
     <>
-      <div>
+      <div style={styleDiv}>
       <Chart
         chartType="ColumnChart"
         data= {data}
