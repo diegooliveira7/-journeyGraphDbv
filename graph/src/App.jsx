@@ -1,10 +1,15 @@
 import { Chart } from "react-google-charts";
 
+const optionChart = {//Configuração das legendas
+  legend: {
+    position: "none"//Desativar a informação da coluna
+  },
+};
 
 const App = () => {
 
   const data = [
-    ["Element", "Density", { role: "style" }],
+    ["Element", "Pontos", { role: "style" }],
     ["Arqueiras", 8.94, "#ac9b84"],
     ["Atalaia", 10.49, "#ac9b84"],
     ["Cavaleiros", 19.3, "#ac9b84"],
@@ -22,6 +27,7 @@ const App = () => {
         width="100%"
         height="400px"
         legendToggle
+        options={optionChart}
       />
       </div>
     </>
