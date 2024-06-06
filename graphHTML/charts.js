@@ -5,7 +5,7 @@ google.charts.setOnLoadCallback(drawChart);
 function drawChart() {
     const container = document.querySelector('#chart')
     const data = new google.visualization.arrayToDataTable([
-        [ 'Character', 'Ki' ],
+        [ 'Character', 'Ki'],
         [ 'Goku', 10000 ],
         [ 'Vegeta', 9000 ],
         [ 'Gohan', 8000 ],
@@ -16,7 +16,9 @@ function drawChart() {
         // title: 'Dragon Ball Z - Characters Ki',
         'legend': 'none', //deixar sem legenda
         height: 400,
-        width: 720
+        width: 720,
+        backgroundColor: '#ffd',
+        colors: ['#ac9b84'],
     }
 
     // const chart = new google.visualization.ColumnChart(container)
