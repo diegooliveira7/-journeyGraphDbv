@@ -15,9 +15,9 @@ function drawChart() {
     const options = {
         // title: 'Dragon Ball Z - Characters Ki',
         'legend': 'none', //deixar sem legenda
-        height: 400,
-        width: 720,
-        backgroundColor: '#ffd',
+        height: 600,
+        width: 1000,
+        backgroundColor: '#fbf3db',
         colors: ['#ac9b84'],
     }
 
