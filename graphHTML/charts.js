@@ -14,7 +14,7 @@ function drawChart() {
     ])
     const options = {
         // title: 'Dragon Ball Z - Characters Ki',
-        position: "none",
+        'legend': 'none', //deixar sem legenda
         height: 400,
         width: 720
     }
