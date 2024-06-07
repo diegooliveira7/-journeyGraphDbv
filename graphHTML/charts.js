@@ -10,13 +10,15 @@ function drawChart() {
         [ 'Vegeta', 9000 ],
         [ 'Gohan', 8000 ],
         [ 'Freeza', 5000 ],
-        [ 'Piccolo', 2000 ]
+        [ 'Piccolo', 2000 ],
+        [ 'Vegetaa', 9000 ],
     ])
     const options = {
         // title: 'Dragon Ball Z - Characters Ki',
         'legend': 'none', //deixar sem legenda
-        height: 600,
-        width: 1000,
+        height: 650,
+        width: 1250,
+        chartArea:{left:70,top:15,width:'90%',height:'90%'},
         backgroundColor: '#fbf3db',
         colors: ['#ac9b84'],
     }
