@@ -8,7 +8,8 @@ const optionChart = {//Configuração das legendas
 };
 
 const styleDiv = {
-  'box-shadow': '3px 3px 3px 3px rgba(0, 0, 0, 0.3)'
+  'box-shadow': '3px 3px 3px 3px rgba(0, 0, 0, 0.3)',
+  'background-color': 'blue'
 };
 
 const App = () => {

@@ -28,4 +28,5 @@ function drawChart() {
     // const chart = new google.visualization.LineChart(container)
     const chart = new google.visualization.ColumnChart(container)
     chart.draw(data, options)
+    
 }
