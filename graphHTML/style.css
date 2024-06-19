@@ -27,6 +27,17 @@ body{
     text-align: center;
 }
 
+.text-2024{
+    font-size: 2rem;
+    line-height: 3rem;
+    position: absolute;
+    top: 130px;
+    left: 48%;
+    font-family: "Gwendolyn", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .graph {
     display: flex;
     height: 100px;
@@ -39,8 +50,17 @@ body{
     text-align: right;
 }
 
-.graph-int {
-    padding-left: 0%;
+.img-circ {
+    position: absolute;
+    left: 58%;
+    top: 35px;
+    width: 100px;
+    height: 100px;
+}
+
+#chart {
+    width: 100%; 
+    min-height: 450px;
 }
 
 /* #chart {
