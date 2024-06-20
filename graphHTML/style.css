@@ -42,6 +42,7 @@ body{
     display: flex;
     height: 100px;
     /* padding-left: 5%; */
+    
 }
 
 .graph img {
@@ -58,9 +59,18 @@ body{
     height: 100px;
 }
 
-#chart {
+/* .graph-int {
+
+} */
+
+.chart {
     width: 100%; 
     min-height: 450px;
+    position: absolute;
+}
+
+.title {
+    margin:0;
 }
 
 /* #chart {

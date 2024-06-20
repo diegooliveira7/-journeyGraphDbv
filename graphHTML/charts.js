@@ -1,5 +1,5 @@
 
-google.charts.load('current', { packages: [ 'corechart' ] });
+google.charts.load("visualization", "1", { packages: [ 'corechart' ] });
 google.charts.setOnLoadCallback(drawChart);
 
 function drawChart() {
@@ -23,7 +23,7 @@ function drawChart() {
     // const chart = new google.visualization.ColumnChart(container)
     // const chart = new google.visualization.BarChart(container)
     // const chart = new google.visualization.LineChart(container)
-    const chart = new google.visualization.ColumnChart(container)
+    var chart = new google.visualization.ColumnChart(document.getElementById('chart'));
     chart.draw(data, options)
     
 }
