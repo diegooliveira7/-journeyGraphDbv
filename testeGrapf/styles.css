@@ -4,10 +4,35 @@
     box-sizing: border-box;
 }
 
-body {
+#home {
     background: #fbf3db;
-    display: flex;
+    /* display: flex;  */
+    /* Se eu retirar esse flex, esse item não mexe */
     align-items: center;
     justify-content: center;
     min-height: 100vh;
 }
+
+.title {
+    text-align: center;
+    padding: 5%;
+}
+
+.text-h1 {
+    font-size: 4rem;
+}
+
+.container {
+    display: flex;
+}
+
+#img-logo {
+    width: 600px;
+    height: 600px;
+    text-align: right;
+}
+
+.chart {
+    text-align: left;
+}
+

@@ -8,6 +8,8 @@ const ctx = document.getElementById('barchart'); //se eu deixar myChart, sem col
       datasets: [{
         label: '# of Votes',
         data: [12, 19, 3, 5, 2, 3],
+        borderColor: '#36A2EB',
+        backgroundColor: 'red',
         borderWidth: 1
       }]
     },
@@ -15,6 +17,11 @@ const ctx = document.getElementById('barchart'); //se eu deixar myChart, sem col
       scales: {
         y: {
           beginAtZero: true
+        }
+      },
+      plugins: {
+        legend: {
+            display: false,
         }
       }
     }
